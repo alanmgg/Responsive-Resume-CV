@@ -112,7 +112,7 @@ let resumeButton = document.getElementById("resume-button");
 // Html2pdf options
 let opt = {
   margin: 0,
-  filename: "CV-AFMG.pdf",
+  filename: "CV - Alan Francisco Mora.pdf",
   image: { type: "jpeg", quality: 0.98 },
   html2canvas: { scale: 4 },
   pagesplit: true,
@@ -120,7 +120,7 @@ let opt = {
     format: "a4",
     orientation: "portrait",
     unit: "cm",
-    format: [21, 29.78]
+    format: [20.78, 29.88]
   }
 };
 
